@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper-bundle.css'
 import { Navigation, Pagination,Scrollbar, A11y } from 'swiper/modules';
 import far from './G13.jpeg';
-import EECE from './EECE.jpeg
+import EECE from './EECE.jpeg';
 import G11 from './G11.jpeg'
 import G12 from './G12.jpeg'
 import 'swiper/css/navigation';
