@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper-bundle.css'
 import { Navigation, Pagination,Scrollbar, A11y } from 'swiper/modules';
 import far from './G13.jpeg';
+import EECE from './EECE.jpeg
 import G11 from './G11.jpeg'
 import G12 from './G12.jpeg'
 import 'swiper/css/navigation';
@@ -23,7 +24,10 @@ const Gallery = () => {
        onSwiper={(swiper) => console.log(swiper)}
        onSlideChange={() => console.log('slide change')} 
        scrollbar={{ draggable: true }}>
-            
+            <SwiperSlide><div className='relative'>
+                <img src={EECE} className='w-full h-[600px] object-cover rounded-lg'/>
+                <div className='absolute top-1/2 left-[15%]  '><p className='p-1 bg-transparent text-white text-3xl whitespace-pre-line'>My first project at EECE in December 2024</p></div>
+                </div></SwiperSlide>
             <SwiperSlide><div className='relative'>
                 <img src={far} className='w-full h-[600px] object-cover rounded-lg'/>
                 <div className='absolute top-1/2 left-[15%]  '><p className='p-1 bg-transparent text-white text-3xl whitespace-pre-line'>The last stand at Stem October in 2023 with my first ever teammates</p></div>
