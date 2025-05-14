@@ -1,6 +1,6 @@
 import Uber from './ub.png'
 import Math from './ma.png'
-import PINNS from './pinns.png'
+import PINNS from './pinn-feature.webp'
 import {
     FaXTwitter,
     FaGithub,
