@@ -56,7 +56,14 @@ export const data=[
         href:'https://travel-list-pearl.vercel.app/'
 
     },{
-        id:6,
+        id:6
+        title:'NeuroDiggers',
+        description:'This project leverages Physics-Informed Neural Networks (PINNs) and Model Predictive Control (MPC) to model and control Connected and Autonomous Vehicles (CAVs). By embedding vehicle dynamics,expressed through nonlinear ordinary and partial differential equations,directly into the neural network loss function, it achieves accurate, robust control. This approach enhances trajectory tracking, stability, and real-time decision-making for safe and efficient autonomous vehicle operation under real-world conditions.',
+        image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
+        href:'https://github.com/Euro-max/PINNS' 
+    },
+{
+        id:7,
         title:'Future Project',
         description:'Anything new will be added here',
         image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
