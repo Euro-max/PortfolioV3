@@ -1,5 +1,6 @@
 import Uber from './ub.png'
 import Math from './ma.png'
+import PINNS from './pinns.png'
 import {
     FaXTwitter,
     FaGithub,
@@ -59,7 +60,7 @@ export const data=[
         id:6
         title:'NeuroDiggers',
         description:'This project leverages Physics-Informed Neural Networks (PINNs) and Model Predictive Control (MPC) to model and control Connected and Autonomous Vehicles (CAVs). By embedding vehicle dynamics,expressed through nonlinear ordinary and partial differential equations,directly into the neural network loss function, it achieves accurate, robust control. This approach enhances trajectory tracking, stability, and real-time decision-making for safe and efficient autonomous vehicle operation under real-world conditions.',
-        image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
+        image:(<motion.img src={PINNS} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
         href:'https://github.com/Euro-max/PINNS' 
     },
 {
@@ -68,7 +69,7 @@ export const data=[
         description:'Anything new will be added here',
         image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
         href:'#'
-    }
+    },
 ]
 
   /*export const NAVIGATION_LINKS = [
