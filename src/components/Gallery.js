@@ -12,6 +12,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Gq from './Gq.jpeg'
+import TCCD from './1746813506271.jpeg'
 import Past from './Past.jpeg'
 
 const Gallery = () => {
@@ -25,7 +26,7 @@ const Gallery = () => {
        onSlideChange={() => console.log('slide change')} 
        scrollbar={{ draggable: true }}>
            <SwiperSlide><div className='relative'>
-                <img src={EECE} className='w-full h-[600px] object-cover rounded-lg'/>
+                <img src={TCCD} className='w-full h-[600px] object-cover rounded-lg'/>
                 <div className='absolute top-1/2 left-[15%]  '><p className='p-1 bg-transparent text-white text-3xl whitespace-pre-line'>My Second Math project at EECE in May 2025</p></div>
                 </div></SwiperSlide>
             <SwiperSlide><div className='relative'>
