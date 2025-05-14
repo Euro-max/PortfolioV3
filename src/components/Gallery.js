@@ -24,6 +24,10 @@ const Gallery = () => {
        onSwiper={(swiper) => console.log(swiper)}
        onSlideChange={() => console.log('slide change')} 
        scrollbar={{ draggable: true }}>
+           <SwiperSlide><div className='relative'>
+                <img src={EECE} className='w-full h-[600px] object-cover rounded-lg'/>
+                <div className='absolute top-1/2 left-[15%]  '><p className='p-1 bg-transparent text-white text-3xl whitespace-pre-line'>My Second Math project at EECE in May 2025</p></div>
+                </div></SwiperSlide>
             <SwiperSlide><div className='relative'>
                 <img src={EECE} className='w-full h-[600px] object-cover rounded-lg'/>
                 <div className='absolute top-1/2 left-[15%]  '><p className='p-1 bg-transparent text-white text-3xl whitespace-pre-line'>My first project at EECE in December 2024</p></div>
