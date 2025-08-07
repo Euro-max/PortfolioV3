@@ -1,6 +1,8 @@
 import Uber from './ub.png'
 import Math from './ma.png'
 import PINNS from './pinn-feature.webp'
+import Pro from './Processor.jpg'
+import HeartML from './HeartML.jpg'
 import {
     FaXTwitter,
     FaGithub,
@@ -63,11 +65,25 @@ export const data=[
         image:(<motion.img src={PINNS} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
         href:'https://github.com/Euro-max/PINNS' 
     },
+ {
+     id:7,
+     title:'32bit RISC Processor',
+     description:' Designed and implemented a complete single‑cycle RV32I RISC‑V CPU architecture in Verilog, compatible with the official RISC‑V ISA. Also, Used Xilinx Vivado for FPGA synthesis and validation on Basys Rev3 board, achieving functional correctness through a custom testbench',
+    image:(<motion.img src={Processor} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="CPU"></motion.img>),
+    href:'https://github.com/Euro-max/Digital-Design/tree/main/Single%20Cycle%20RISC-V%2032%20Processor'
+    },
 {
-        id:7,
+     id:8,
+     title:'Heart Disease Predictor',
+     description:'This project is a comprehensive machine learning pipeline designed to predict the presence and type of heart disease using the UCI Heart Disease dataset. It covers a full end-to-end workflow, from data preprocessing and exploratory analysis to model deployment via Streamlit Cloud. I tested various supervised and unsupervised learning models, acheiving 61.67% accuracy through RandomForestClassifier',
+    image:(<motion.img src={HeartML} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Heart"></motion.img>),
+    href:'https://github.com/Euro-max/Heart_ML'
+    },
+        {
+        id:9,
         title:'Future Project',
         description:'Anything new will be added here',
-        image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
+        image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Future"/>),
         href:'#'
     },
 ]
@@ -117,3 +133,4 @@ export const data=[
       experience: "1+ year",
     },
   ];
+
