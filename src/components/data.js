@@ -69,7 +69,7 @@ export const data=[
      id:7,
      title:'32bit RISC Processor',
      description:' Designed and implemented a complete single‑cycle RV32I RISC‑V CPU architecture in Verilog, compatible with the official RISC‑V ISA. Also, Used Xilinx Vivado for FPGA synthesis and validation on Basys Rev3 board, achieving functional correctness through a custom testbench',
-    image:(<motion.img src={Processor} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="CPU"></motion.img>),
+    image:(<motion.img src={Pro} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="CPU"></motion.img>),
     href:'https://github.com/Euro-max/Digital-Design/tree/main/Single%20Cycle%20RISC-V%2032%20Processor'
     },
 {
@@ -133,4 +133,5 @@ export const data=[
       experience: "1+ year",
     },
   ];
+
 
