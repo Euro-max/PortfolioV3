@@ -26,10 +26,9 @@ const Gallery = () => {
        onSwiper={(swiper) => console.log(swiper)}
        onSlideChange={() => console.log('slide change')} 
        scrollbar={{ draggable: true }}>
-         <SwiperSlide>
-  <div className='relative w-full h-[600px] bg-[#222222] rounded-lg'>
-    {/* Changed to object-cover object-top */}
-    <img src={cmos} className='w-full h-full object-cover object-top' alt="ITI Internship"/>
+      <SwiperSlide>
+  <div className='relative w-full h-[700px] bg-[#222222] rounded-lg'>
+    <img src={cmos} className='w-full h-full object-contain' alt="ITI Internship"/>
     <div className='absolute top-1/2 left-[15%]'>
       <p className='p-1 bg-transparent text-white text-3xl whitespace-pre-line'>
         Finishing off the ITI Analog IC Internship in September 2026
