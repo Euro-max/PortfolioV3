@@ -5,6 +5,8 @@ import Pro from './Processor.jpg'
 import HeartML from './HeartML.jpg'
 import Per from './Per.jpg'
 import OTA from './OTA.png'
+import FDC from './FDC.png'
+import BGR from './BGR.png
 import {
     FaXTwitter,
     FaGithub,
@@ -103,11 +105,29 @@ export const data=[
      category: 'Analog',
     darkText: true,
      description:'Designed Two Stage Miller OTA in Global Foundries 180nm CMOS process,aiming for high open loop gain to make input differential equal zero and high output swing, acheiving CMRR of 84.5 dB, phase margin of 70.04 , Slew Rate of 5.008 V/us, while consuming 49.75 uA and using tracking 1/gm NMOS transistor to keep the RHP zero at infinity across corners',
-    image:(<motion.img src={OTA} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Per"></motion.img>),
-    href:'https://github.com/Euro-max/ITI_LABS/Lab_09'
+    image:(<motion.img src={OTA} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="OTA"></motion.img>),
+    href:'https://github.com/Euro-max/ITI_LABS/tree/main/Lab_09'
+    },
+    {
+     id:11,
+     title:'Fully Differential Cascode OTA in GF180nm',
+     category: 'Analog',
+    darkText: true,
+     description:'Designed Fully Differential Folded Cascode OTA in Cadence Virtuoso for closed loop gain of 2, acheiving phase margin of 89.03, 98.59ns settling time and 1.19855 differential output swing. Used Magic battery for VCASCN and VCASCP biasing',
+    image:(<motion.img src={FDC} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="FDC"></motion.img>),
+    href:'https://github.com/Euro-max/ITI_LABS/tree/main/Lab_11'
+    },
+  {
+     id:12,
+     title:'Self Biased Sub 1V BGR',
+     category: 'Analog',
+    darkText: true,
+     description:'Designed Self Biased Sub 1V BGR to give Vref of 800mV insensitive to PVT variations to be delivered for LDO/ADC. Acheived 2.5mV variation across temperature (TT corner) and 4.5mV (max) across all corners (SS,FF,TT) while consuming 4.12 uA',
+    image:(<motion.img src={BGR} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="BGR"></motion.img>),
+    href:'https://github.com/Euro-max/ITI_LABS/tree/main/Design_Challenge_1'
     },
         {
-        id:11,
+        id:13,
         title:'Future Project',
         description:'Anything new will be added here',
         image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Future"/>),
