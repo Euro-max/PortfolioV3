@@ -14,7 +14,7 @@ import 'swiper/css/scrollbar';
 import Gq from './Gq.jpeg'
 import TCCD from './1746813506271.jpeg'
 import Past from './Past.jpeg'
-import cmos from '/cmos.jpg
+import cmos from '/cmos.jpg'
 
 const Gallery = () => {
   return (
