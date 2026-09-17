@@ -4,7 +4,7 @@ import PINNS from './pinn-feature.webp'
 import Pro from './Processor.jpg'
 import HeartML from './HeartML.jpg'
 import Per from './Per.jpg'
-import OTA from './OTA.png
+import OTA from './OTA.png'
 import {
     FaXTwitter,
     FaGithub,
