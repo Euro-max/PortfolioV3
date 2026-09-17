@@ -107,7 +107,7 @@ export const data=[
     href:'https://github.com/Euro-max/ITI_LABS/Lab_09'
     },
         {
-        id:10,
+        id:11,
         title:'Future Project',
         description:'Anything new will be added here',
         image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Future"/>),
