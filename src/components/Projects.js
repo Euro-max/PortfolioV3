@@ -55,11 +55,11 @@ const Projects = () => {
               whileHover={{scale:1.05}}
             >
               {item.image}
-              <div className='absolute inset-0 flex flex-col items-center justify-center text-white opacity-0 backdrop-blur-md transition-opacity duration-500 group-hover:opacity-100'> 
-                <p className='pl-3 dark:text-[#fff] mt-[35px]'>{item.title}</p>
-                <p className='pl-3 dark:text-[#fff] text-center px-2'>{item.description}</p>
+              <div className={`absolute inset-0 flex flex-col items-center justify-center opacity-0 backdrop-blur-md transition-opacity duration-500 group-hover:opacity-100 ${item.darkText ? 'text-black' : 'text-white'}`}> 
+                <p className={`pl-3 mt-[35px] font-bold ${item.darkText ? 'text-black' : 'dark:text-[#fff]'}`}>{item.title}</p>
+                <p className={`pl-3 text-center px-2 font-medium ${item.darkText ? 'text-black' : 'dark:text-[#fff]'}`}>{item.description}</p>
                 <motion.a 
-                  className='bg-[#e85d04] flex justify-center mt-[50px] px-4 py-4 rounded-full cursor-pointer' 
+                  className='bg-[#e85d04] text-white flex justify-center mt-[50px] px-4 py-4 rounded-full cursor-pointer' 
                   initial={{scale:0}}
                   animate={{scale:1}}
                   whileHover={{scale:1.2}}
