@@ -31,30 +31,35 @@ export const data=[
     {
      id:1,
      title:'UberEats',
+    category: 'AI & Web Development',
      description:'A front-end web application which I built in August 2024, The project features TailWindCSS, React Hooks, Axios CallAPIMethod using Spoonacular API, Responsive Design Principles, Dynamic Data Rendering, and Smooth React Scroll. If you want to get the best out of your diet, Then definitely Give it a try',
     image:(<motion.img src={Uber} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"></motion.img>),
     href:'https://ubereats-three.vercel.app/'
     },{
         id:2,
         title:'October Math Gems',
+        category: 'AI & Web Development',
         description:'A front-end project I cobuilt in December 2022, The project features the use of Bootstrap core components, CSS loaders. The project aims to dismantle math illiteracy across Egypt through posting daily handouts for IMOs fans, challenging problems with their solutions, publishing our community scientific research on various topics in Mathematics and Physics. If you are a Science maniac, Just Check it out',
         image:(<motion.img src={Math} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
         href:'https://euro-max.github.io/stemship/'
     },{
       id:3,
       title:'Green Soil Warriors',
+      category: 'AI & Web Development',
       description:'A Capstone Project I built in November 2022 for my graduation year at STEM, The project aims to monitor soils moisture and temperature using Arduino MicroController and Moisture Sensors, The Arduino sends the data to FireBase RealTime Database from where the dashboard reads data and displays it using Chart.js and Vanilla JavaScript. The project features DarkMode and Speech Recognition',
       image:(<motion.img src={dark} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
       href:'https://github.com/Euro-max/Capstone-323'
     },{
     id:4,
     title:'October Chemistry Club',
+    category: 'AI & Web Development',
     description:'A front-end project I built in August 2022, The project features the use of CSS Box Model, Bootstrap Carousel. The website provides great resources for Chemistry enthusiasts and for those who want to delve deep into Chemistry for their research',
     image:(<motion.img src={Chem} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
     href:'https://euro-max.github.io/OctoberChemistry.github.io/'
     },{
         id:5,
         title:'TraveList',
+        category: 'AI & Web Development',
         description:'TravelList App where the user can enter what he needs for a faraway trip. This app is a simple implementation of React Basics: Components JSX Props UseState and Controlled Elements Events Deriving State Lifting up a State Modern JavaScript ES6 concepts',
         image:(<motion.img src={Far} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
         href:'https://travel-list-pearl.vercel.app/'
@@ -62,6 +67,7 @@ export const data=[
     },{
         id:6,
         title:'NeuroDiggers',
+        category: 'AI & Web Development',
         description:'This project leverages Physics-Informed Neural Networks (PINNs) and Model Predictive Control (MPC) to model and control Connected and Autonomous Vehicles (CAVs). By embedding vehicle dynamics,expressed through nonlinear ordinary and partial differential equations,directly into the neural network loss function, it achieves accurate, robust control. This approach enhances trajectory tracking, stability, and real-time decision-making for safe and efficient autonomous vehicle operation under real-world conditions.',
         image:(<motion.img src={PINNS} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Eat"/>),
         href:'https://github.com/Euro-max/PINNS' 
@@ -69,6 +75,7 @@ export const data=[
  {
      id:7,
      title:'32bit RISC Processor',
+    category: 'Digital',
      description:' Designed and implemented a complete single‑cycle RV32I RISC‑V CPU architecture in Verilog, compatible with the official RISC‑V ISA. Also, Used Xilinx Vivado for FPGA synthesis and validation on Basys Rev3 board, achieving functional correctness through a custom testbench',
     image:(<motion.img src={Pro} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="CPU"></motion.img>),
     href:'https://github.com/Euro-max/Digital-Design/tree/main/Single%20Cycle%20RISC-V%2032%20Processor'
@@ -76,6 +83,7 @@ export const data=[
 {
      id:8,
      title:'Heart Disease Predictor',
+     category: 'AI & Web Development',
      description:'This project is a comprehensive machine learning pipeline designed to predict the presence and type of heart disease using the UCI Heart Disease dataset. It covers a full end-to-end workflow, from data preprocessing and exploratory analysis to model deployment via Streamlit Cloud. I tested various supervised and unsupervised learning models, acheiving 61.67% accuracy through RandomForestClassifier',
     image:(<motion.img src={HeartML} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Heart"></motion.img>),
     href:'https://github.com/Euro-max/Heart_ML'
@@ -83,6 +91,7 @@ export const data=[
 {
      id:9,
      title:'Digital Perceptron in 65nm CMOS',
+     category: 'Analog',
      description:'Designed and simulated a high-speed artificial neuron (perceptron) using Cadence Virtuoso in a TSMC 65 nm CMOS process, aiming to compute weighted inputs (yout = x1w1 + x2w2) for 4-bit signed numbers, acheiving worst-case schematic delay of 164.3 ps, an average power consumption of 39.5 μW at 1 GHz, and a maximum operating frequency of 7.0 GHz',
     image:(<motion.img src={Per} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Per"></motion.img>),
     href:'https://github.com/Euro-max/Digital_Perceptron'
