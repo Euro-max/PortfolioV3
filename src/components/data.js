@@ -4,6 +4,7 @@ import PINNS from './pinn-feature.webp'
 import Pro from './Processor.jpg'
 import HeartML from './HeartML.jpg'
 import Per from './Per.jpg'
+import OTA from './OTA.png
 import {
     FaXTwitter,
     FaGithub,
@@ -95,6 +96,15 @@ export const data=[
      description:'Designed and simulated a high-speed artificial neuron (perceptron) using Cadence Virtuoso in a TSMC 65 nm CMOS process, aiming to compute weighted inputs (yout = x1w1 + x2w2) for 4-bit signed numbers, acheiving worst-case schematic delay of 164.3 ps, an average power consumption of 39.5 μW at 1 GHz, and a maximum operating frequency of 7.0 GHz',
     image:(<motion.img src={Per} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Per"></motion.img>),
     href:'https://github.com/Euro-max/Digital_Perceptron'
+    },
+{
+     id:10,
+     title:'Miller OTA in GF180nm',
+     category: 'Analog',
+    darkText: true,
+     description:'Designed Two Stage Miller OTA in Global Foundries 180nm CMOS process,aiming for high open loop gain to make input differential equal zero and high output swing, acheiving CMRR of 84.5 dB, phase margin of 70.04 , Slew Rate of 5.008 V/us, while consuming 49.75 uA and using tracking 1/gm NMOS transistor to keep the RHP zero at infinity across corners',
+    image:(<motion.img src={OTA} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Per"></motion.img>),
+    href:'https://github.com/Euro-max/ITI_LABS/Lab_09'
     },
         {
         id:10,
