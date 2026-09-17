@@ -3,6 +3,7 @@ import Math from './ma.png'
 import PINNS from './pinn-feature.webp'
 import Pro from './Processor.jpg'
 import HeartML from './HeartML.jpg'
+import Per from './Per.png'
 import {
     FaXTwitter,
     FaGithub,
@@ -79,8 +80,15 @@ export const data=[
     image:(<motion.img src={HeartML} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Heart"></motion.img>),
     href:'https://github.com/Euro-max/Heart_ML'
     },
+{
+     id:9,
+     title:'Digital Perceptron in 65nm CMOS',
+     description:'Designed and simulated a high-speed artificial neuron (perceptron) using Cadence Virtuoso in a TSMC 65 nm CMOS process, aiming to compute weighted inputs (yout = x1w1 + x2w2) for 4-bit signed numbers, acheiving worst-case schematic delay of 164.3 ps, an average power consumption of 39.5 μW at 1 GHz, and a maximum operating frequency of 7.0 GHz',
+    image:(<motion.img src={Per} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Per"></motion.img>),
+    href:'https://github.com/Euro-max/Digital_Perceptron'
+    },
         {
-        id:9,
+        id:10,
         title:'Future Project',
         description:'Anything new will be added here',
         image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Future"/>),
