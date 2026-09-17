@@ -6,7 +6,7 @@ import HeartML from './HeartML.jpg'
 import Per from './Per.jpg'
 import OTA from './OTA.png'
 import FDC from './FDC.png'
-import BGR from './BGR.png
+import BGR from './BGR.png'
 import {
     FaXTwitter,
     FaGithub,
