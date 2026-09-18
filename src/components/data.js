@@ -123,7 +123,7 @@ export const data=[
      title:'Self Biased Sub 1V BGR',
      category: 'Analog',
     darkText: true,
-     description:'Designed Self Biased Sub 1V BGR to give Vref of 800mV insensitive to PVT variations to be delivered for LDO/ADC. Acheived 2.5mV variation across temperature (TT corner) and 4.5mV (max) across all corners (SS,FF,TT) while consuming 4.12 uA',
+     description:'Designed Self Biased Sub 1V BGR in TSMC 65nm Process Node to give Vref of 800mV insensitive to PVT variations to be delivered for LDO/ADC. Acheived 2.5mV variation across temperature (TT corner) and 4.5mV (max) across all corners (SS,FF,TT) while consuming 4.12 uA',
     image:(<motion.img src={BGR} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="BGR"></motion.img>),
     href:'https://github.com/Euro-max/ITI_LABS/tree/main/Design_Challenge_1'
     },
