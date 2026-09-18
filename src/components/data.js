@@ -7,6 +7,7 @@ import Per from './Per.jpg'
 import OTA from './OTA.png'
 import FDC from './FDC.png'
 import BGR from './BGR.png'
+import RISC from './RISC.png'
 import {
     FaXTwitter,
     FaGithub,
@@ -126,8 +127,17 @@ export const data=[
     image:(<motion.img src={BGR} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="BGR"></motion.img>),
     href:'https://github.com/Euro-max/ITI_LABS/tree/main/Design_Challenge_1'
     },
+  {
+     id:13,
+     title:'Canny Edge Detection on RISC-V with Vector Extension',
+     category: 'Digital',
+    darkText: false,
+     description:'This project implements a highly optimized Canny Edge Detection pipeline for the RISC-V (rv64gcv) architecture. By profiling the scalar C++ baseline in QEMU, the most compute-intensive stages—Gaussian Blur and Gradient Magnitude—were identified and accelerated using hand-written RISC-V Vector (RVV) intrinsics. This targeted hardware vectorization delivered scalable performance speedups while maintaining pixel-perfect accuracy across varying vector lengths.',
+    image:(<motion.img src={RISC} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="RISC"></motion.img>),
+    href:'https://github.com/Euro-max/Implementation-of-Canny-Edge-Detection-Algorithm-on-RISC-V-Processor-with-Vector-Extension'
+    },
         {
-        id:13,
+        id:14,
         title:'Future Project',
         description:'Anything new will be added here',
         image:(<motion.img src={Future} whileHover={{scale:1.1}} className='w-[90%] object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="Future"/>),
