@@ -5,7 +5,7 @@ import axios from 'axios'
 import { motion } from 'framer-motion'
 const Hero = () => {
     const [typo]=useTypewriter({
-        words:['Web Dev','Engineer','Chess Fan', 'CUian'],
+        words:['AMS ICer','Engineer','Chess Fan', 'CUian'],
         loop:{},
         typeSpeed:140,
       })
