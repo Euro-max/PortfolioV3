@@ -31,7 +31,7 @@ const Gallery = () => {
   <div className='relative w-full h-[700px] bg-[#222222] rounded-lg'>
     <img src={Digital} className='w-full h-full object-contain' alt="DigitalIC"/>
     <div className='absolute top-1/2 left-[15%]'>
-      <p className='p-1 bg-transparent text-white text-3xl whitespace-pre-line'>
+      <p className='p-1 text-3xl font-medium text-slate-700 whitespace-pre-line'>
 Completing the Digital IC Diploma (Oct 2026), mentored by Eng. Ali ElTemsah.      </p>
     </div>
   </div>
