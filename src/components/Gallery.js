@@ -15,6 +15,7 @@ import Gq from './Gq.jpeg'
 import TCCD from './1746813506271.jpeg'
 import Past from './Past.jpeg'
 import cmos from './cmos.jpg'
+import Digital from './DigIC.jpeg'
 
 const Gallery = () => {
   return (
@@ -26,6 +27,15 @@ const Gallery = () => {
        onSwiper={(swiper) => console.log(swiper)}
        onSlideChange={() => console.log('slide change')} 
        scrollbar={{ draggable: true }}>
+          <SwiperSlide>
+  <div className='relative w-full h-[700px] bg-[#222222] rounded-lg'>
+    <img src={Digital} className='w-full h-full object-contain' alt="DigitalIC"/>
+    <div className='absolute top-1/2 left-[15%]'>
+      <p className='p-1 bg-transparent text-white text-3xl whitespace-pre-line'>
+Completing the Digital IC Diploma (Oct 2026), mentored by Eng. Ali ElTemsah.      </p>
+    </div>
+  </div>
+</SwiperSlide>
       <SwiperSlide>
   <div className='relative w-full h-[700px] bg-[#222222] rounded-lg'>
     <img src={cmos} className='w-full h-full object-contain' alt="ITI Internship"/>
