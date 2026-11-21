@@ -132,7 +132,7 @@ export const data=[
      id:13,
      title:'Fresenel Coefficient Characterization at a Planar Dielectric Interface',
      category: 'EM',
-    darkText: false,
+    darkText: true,
      description:'Characterized TE and TM Fresnel reflection across a PTFE-to-Glass interface at 10 GHz by deriving the analytical equations from Maxwell boundary conditions and validating them via 3D CST Studio Suite simulations using Floquet ports and Unit Cell boundaries. Achieved within 2% agreement with MATLAB predictions, accurately confirming the 46.17° TM Brewster angle and phase behavior.',
     image:(<motion.img src={Field} whileHover={{scale:1.1}} className='w-full object-cover h-[400px] transition-transform duration-500 group-hover:scale-110' alt="RISC"></motion.img>),
     href:'https://github.com/Euro-max/cst-fresnel-characterization/tree/main'
