@@ -5,7 +5,7 @@ import { data } from './data'
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('All');
   
-  const categories = ['All', 'Analog', 'Digital', 'AI & Web Development'];
+  const categories = ['All', 'Analog', 'Digital', 'AI & Web Development', 'EM'];
 
   const filteredProjects = data.filter(item => {
     if (activeCategory === 'All') return true;
